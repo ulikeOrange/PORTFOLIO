@@ -1,0 +1,61 @@
+/* 基本样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #20232a, #1b1d23);
+    color: #61dafb;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #282c34;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(97, 218, 251, 0.7);
+    margin: 20px;
+}
+
+/* 动画效果 */
+.container {
+    transform: scale(0.8);
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.container.show {
+    transform: scale(1);
+    opacity: 1;
+}
+  /* 初始按钮样式 */
+.contact-button {
+    background-color: #787878;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* 鼠标悬停时的样式 */
+.contact-button:hover {
+    transform: scale(1.1);
+    background-color: #61dafb;
+}
+
+/* 鼠标点击时的样式 */
+.contact-button:active {
+    transform: scale(0.8);
+}
+
