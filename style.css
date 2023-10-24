@@ -5,7 +5,7 @@ body {
     color: #61dafb;
     margin: 0;
     padding: 0;
-    background-image: url('https://cdn.jsdelivr.net/gh/ulikeOrange/PORTFOLIO@main/img/%E8%83%8C%E6%99%AF.png'); /* 用您的插图的文件路径替换 'your-image.jpg' */
+    background-image: url('https://cdn.jsdelivr.net/gh/ulikeOrange/PORTFOLIO@main/img/pexels-photo-2603464.jpeg'); /* 用您的插图的文件路径替换 'your-image.jpg' */
     background-size: cover; /* 图像将被自动缩放以填充整个屏幕 */
     background-position: center; /* 图像在屏幕中央显示 */
     background-attachment: fixed; /* 固定背景图像，以创建视差滚动效果（可选）
